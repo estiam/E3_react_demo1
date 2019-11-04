@@ -6,8 +6,19 @@ const person = {
 }
 
 const MySecondComponent = () => {
+
+  person.firstName = "Thomas";
+
+  setTimeout(() => {
+    person.firstName = "Martha";
+    alert("DUN NUN NUN NUN NUN NUN NUN NUN NUN NUN NUN NUN NUN NUN NUN NUN NUN BATMAN !")
+  }, 5000);
+
   return (
-    <div>This is my second component</div>
+    <div>
+      <div>This is my second component</div>
+      <div>My name is {person.firstName} {person.lastName}</div>
+    </div>
   );
 }
 
