@@ -11,7 +11,7 @@ const MySecondComponent = () => {
 
   setTimeout(() => {
     person.firstName = "Martha";
-    alert("DUN NUN NUN NUN NUN NUN NUN NUN NUN NUN NUN NUN NUN NUN NUN NUN NUN BATMAN !")
+    // alert("DUN NUN NUN NUN NUN NUN NUN NUN NUN NUN NUN NUN NUN NUN NUN NUN NUN BATMAN !")
   }, 5000);
 
   return (

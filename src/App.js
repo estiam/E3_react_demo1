@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import MyFirstComponent from './MyFirstComponent';
 import MySecondComponent from './MySecondComponent';
+import MyClassComponent from './MyClassComponent';
 
 const style = {
   color: "#FF00FF",
@@ -14,6 +15,7 @@ function App() {
       Hello <span style={style}>Pinkie Pie</span>!
       <MyFirstComponent />
       <MySecondComponent />
+      <MyClassComponent />
     </div>
   );
 }
