@@ -21,6 +21,7 @@ class MyClassComponent extends Component {
       <div>
         {/* <div>ClassComponent: {this.state.name}</div> */}
         <UserBlock
+          color='#4AC'
           firstName={this.state.firstName}
           lastName={this.state.lastName}
         />
